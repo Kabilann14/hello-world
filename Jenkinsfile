@@ -60,7 +60,7 @@ node('node') {
          sh './dockerPushToRepo.sh'
 
          echo 'ssh to web server and tell it to pull new image'
-         sh 'ssh deploy@xxxxx.xxxxx.com running/xxxxxxx/dockerRun.sh'
+         sh 'ssh deploy@xxxxsx.xxxxx.com running/xxxxxxx/dockerRun.sh'
 
        }
 
